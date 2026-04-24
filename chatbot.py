@@ -26,7 +26,7 @@ for resource in ("punkt", "punkt_tab", "wordnet"):
 HIDDEN_SIZE          = 64
 LEARNING_RATE        = 0.005
 EPOCHS               = 600
-CONFIDENCE_THRESHOLD = 0.70
+CONFIDENCE_THRESHOLD = 0.50
 INTENTS_FILE         = "intents.json"
 MODEL_DIR            = "model_artifacts"
 # ─────────────────────────────────────────────────────────────────────────────
